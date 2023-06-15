@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo_gear"
+    android:orientation="vertical"
+    tools:context=".ThongtinungdungFragment">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="152dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="10dp"
+        android:text="Thực hiện:"
+        android:textColor="#ff0000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="7dp"
+        android:text=" Lê Trọng Anh Tài"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Mobile app: "
+        android:textColor="#ff0000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="8dp"
+        android:text="Cửa hàng bán đồ điện tử Gear"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp" />
+
+</LinearLayout>

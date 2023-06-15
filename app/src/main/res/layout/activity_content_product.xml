@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/ThemeOverlay.AppCompat.Dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_product"
+            android:layout_width="150dp"
+            android:layout_height="200dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txttensp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:text="lap"
+                android:textColor="#ff0000"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/txtgiatien"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="25.555.555 đ"
+                android:textColor="#008000"
+                android:textSize="20sp" />
+
+            <TextView
+
+                android:id="@+id/txtthuonghieu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:maxLines="2"
+                android:text="dell"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtbaohanh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Bảo hành 12 tháng kể từ khi mua"
+                android:textColor="#4b0082"
+                android:textSize="14sp" />
+
+            <ImageView
+
+                android:id="@+id/img_thongtin"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/iconlap"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/text_thongtin"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Đảm bảo chính hãng 100%"
+                android:layout_marginLeft="3dp"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="89dp"
+                android:layout_marginTop="-105dp"
+                android:background="@drawable/momo"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="77dp"
+                android:layout_marginTop="3dp"
+                android:text="Thanh toán momo tiện lợi"
+                android:textColor="@color/black" />
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="164dp"
+                android:layout_marginTop="-105dp"
+                android:background="@drawable/free"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="1dp"
+                android:text="Freeship quanh phú diễn"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="-80dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/txtmota"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:textColor="#BCBAB7"
+            android:textSize="16sp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btndathang"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/button"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="5dp"
+        android:elevation="5dp"
+        android:text="Thêm vào giỏ hàng" />
+
+</LinearLayout>

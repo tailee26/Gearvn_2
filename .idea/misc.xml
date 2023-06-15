@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/dotha/AndroidStudioProjects/AppCoffeeThanhNhanSHop/app/src/main/res/layout/activity_bill_admin.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/dotha/AndroidStudioProjects/AppCoffeeThanhNhanSHop/app/src/main/res/layout/activity_contact.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/dotha/AndroidStudioProjects/AppCoffeeThanhNhanSHop/app/src/main/res/layout/activity_content_bill.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/dotha/AndroidStudioProjects/AppCoffeeThanhNhanSHop/app/src/main/res/layout/activity_content_product.xml" value="0.4" />
+        <entry key="..\:/Users/dotha/AndroidStudioProjects/AppCoffeeThanhNhanSHop/app/src/main/res/layout/activity_dangsanpham.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/dotha/AndroidStudioProjects/AppCoffeeThanhNhanSHop/app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/dotha/AndroidStudioProjects/AppCoffeeThanhNhanSHop/app/src/main/res/layout/activity_maps_lien_he_cua_hang.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/dotha/AndroidStudioProjects/AppCoffeeThanhNhanSHop/app/src/main/res/layout/activity_payment.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/dotha/AndroidStudioProjects/AppCoffeeThanhNhanSHop/app/src/main/res/layout/app_bar_main_screen.xml" value="0.14114583333333333" />
+        <entry key="..\:/Users/dotha/AndroidStudioProjects/AppCoffeeThanhNhanSHop/app/src/main/res/layout/dialog_profile.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/dotha/AndroidStudioProjects/AppCoffeeThanhNhanSHop/app/src/main/res/layout/dialog_update_trangthai.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/dotha/AndroidStudioProjects/AppCoffeeThanhNhanSHop/app/src/main/res/layout/dong_sanpham.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/dotha/AndroidStudioProjects/AppCoffeeThanhNhanSHop/app/src/main/res/layout/dong_sanphammicay.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/dotha/AndroidStudioProjects/AppCoffeeThanhNhanSHop/app/src/main/res/layout/fragment_home.xml" value="0.18162278344975819" />
+        <entry key="..\:/Users/dotha/AndroidStudioProjects/AppCoffeeThanhNhanSHop/app/src/main/res/layout/fragment_thongtinungdung.xml" value="0.14114583333333333" />
+        <entry key="..\:/Users/dotha/AndroidStudioProjects/AppCoffeeThanhNhanSHop/app/src/main/res/layout/item_product.xml" value="0.18802083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
